@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_ser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ser No"
+        android:textSize="15sp"
+        android:padding="5dp"/>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account No"
+        android:textSize="15sp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name "
+        android:textSize="15sp"
+        android:padding="5dp"/>
+
+ <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_mov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moc "
+        android:textSize="15sp"
+        android:padding="5dp"/>
+
+
+     <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Addre "
+        android:textSize="15sp"
+        android:padding="5dp"/>
+
+
+   <View
+       android:layout_marginTop="5dp"
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="#463"/>
+
+
+
+</LinearLayout>
